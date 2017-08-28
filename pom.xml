@@ -5,7 +5,7 @@
 
 	<groupId>com.github.adroit007</groupId>
 	<artifactId>datagrid</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>datagrid</name>
