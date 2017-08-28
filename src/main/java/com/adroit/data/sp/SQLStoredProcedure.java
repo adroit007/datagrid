@@ -8,6 +8,15 @@ import org.springframework.jdbc.core.SqlParameter;
 import org.springframework.jdbc.object.StoredProcedure;
 import org.springframework.util.StringUtils;
 
+/**
+ * The actual pojo representation of stored procedure inside database <br>
+ * procName: Name of the stored procedure <br>
+ * input: list of the parameters required by the stored procedure along with its
+ * datatype [format: name_of_parameter, datatype]
+ * 
+ * @author Adroit
+ *
+ */
 public class SQLStoredProcedure extends StoredProcedure {
 
 	private String procName;

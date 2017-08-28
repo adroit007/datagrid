@@ -8,6 +8,14 @@ import java.lang.annotation.Target;
 
 import org.springframework.context.annotation.ComponentScan;
 
+/**
+ * This annotation serves as the entry point to scan the package underneath
+ * com.adroit.data
+ * 
+ * @author Adroit
+ *
+ */
+
 @Documented
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

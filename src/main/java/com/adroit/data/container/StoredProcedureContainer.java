@@ -4,6 +4,20 @@ import java.util.Map;
 
 import com.adroit.data.sp.SQLStoredProcedure;
 
+/**
+ * This contains the compiled stored procedure after it has been successfully
+ * read from the yml file, properly defined and compiled.
+ * 
+ * <code>
+ * <br>
+ * Usage:
+ * SQLStoredProcedure procedure = storeProcContainer.get("Name_of_stored_procedure");
+ * 
+ * </code>
+ * 
+ * @author Adroit
+ *
+ */
 public class StoredProcedureContainer {
 
 	private Map<String, SQLStoredProcedure> storeProcContainer;

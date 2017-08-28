@@ -1,5 +1,11 @@
 package com.adroit.data.exception;
 
+/**
+ * The parent exception class used across this framework
+ * 
+ * @author Adroit
+ *
+ */
 public class DatagridException extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;

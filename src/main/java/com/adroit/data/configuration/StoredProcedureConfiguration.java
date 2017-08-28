@@ -12,6 +12,15 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import com.adroit.data.container.StoredProcedureContainer;
 import com.adroit.data.sp.SQLStoredProcedure;
 
+/**
+ * The main configuration file which scans stored-procedures listed down in
+ * application.yml file. Currently only application.yml is only supported. The
+ * yml should list name of the stored procedure, input parameters along with its
+ * datatype in a well structured yml syntax
+ * 
+ * @author Adroit
+ *
+ */
 public abstract class StoredProcedureConfiguration implements InitializingBean {
 
 	private final Logger logger = LoggerFactory.getLogger(getClass());
